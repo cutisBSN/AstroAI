@@ -8,9 +8,9 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-OPENAI_API_KEY = os.getenv('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')
-TG_BOT_TOKEN = os.getenv('7905213410:AAFfqzCRs6V5l_VvAlZcwbOVQRHfM0J2g5Q')
-CHANNEL_ID = os.getenv('@newsfromopenai')
+OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
+TG_BOT_TOKEN = os.getenv('TG_BOT_TOKEN')
+CHANNEL_ID = os.getenv('CHANNEL_ID')
 POST_TIME = os.getenv('POST_TIME', "08:00")
 
 openai.api_key = OPENAI_API_KEY
